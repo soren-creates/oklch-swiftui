@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="242" viewBox="0 0 760 242" font-family="-apple-system, 'Segoe UI', sans-serif">
+  <text x="12" y="22" font-size="11" font-weight="600" fill="#848D97">CHROMA RAMP, DECLARED HUE 210° — hard-clipped</text>
+  <rect x="12" y="30" width="29" height="28" rx="4" fill="#636363"/>
+  <rect x="43" y="30" width="29" height="28" rx="4" fill="#486A70"/>
+  <rect x="74" y="30" width="29" height="28" rx="4" fill="#176F7C"/>
+  <rect x="105" y="30" width="29" height="28" rx="4" fill="#007489"/>
+  <rect x="136" y="30" width="29" height="28" rx="4" fill="#007895"/>
+  <rect x="167" y="30" width="29" height="28" rx="4" fill="#007BA1"/>
+  <rect x="198" y="30" width="29" height="28" rx="4" fill="#007EAD"/>
+  <rect x="229" y="30" width="29" height="28" rx="4" fill="#0080B9"/>
+  <rect x="260" y="30" width="29" height="28" rx="4" fill="#0081C5"/>
+  <rect x="291" y="30" width="29" height="28" rx="4" fill="#0082D1"/>
+  <rect x="322" y="30" width="29" height="28" rx="4" fill="#0082DD"/>
+  <text x="12" y="72" font-size="10" font-family="monospace" fill="#848D97">hue drifts 210° → 250°</text>
+  <text x="412" y="22" font-size="11" font-weight="600" fill="#848D97">CHROMA RAMP, DECLARED HUE 210° — gamut-mapped</text>
+  <rect x="412" y="30" width="29" height="28" rx="4" fill="#636363"/>
+  <rect x="443" y="30" width="29" height="28" rx="4" fill="#486A70"/>
+  <rect x="474" y="30" width="29" height="28" rx="4" fill="#176F7C"/>
+  <rect x="505" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="536" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="567" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="598" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="629" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="660" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="691" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <rect x="722" y="30" width="29" height="28" rx="4" fill="#007284"/>
+  <text x="412" y="72" font-size="10" font-family="monospace" fill="#848D97">hue held near 213°</text>
+  <text x="10" y="98" font-size="11" font-weight="600" fill="#848D97">RENDERED HUE ALONG THE RAMP — declared 210°</text>
+  <line x1="54" y1="212.0" x2="614" y2="212.0" stroke="#848D97" stroke-opacity="0.25" stroke-dasharray="2,3" stroke-width="1"/>
+  <text x="10" y="216.0" font-size="10" font-family="monospace" fill="#848D97">200°</text>
+  <line x1="54" y1="180.0" x2="614" y2="180.0" stroke="#848D97" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="10" y="184.0" font-size="10" font-family="monospace" fill="#848D97">220°</text>
+  <line x1="54" y1="148.0" x2="614" y2="148.0" stroke="#848D97" stroke-opacity="0.25" stroke-dasharray="2,3" stroke-width="1"/>
+  <text x="10" y="152.0" font-size="10" font-family="monospace" fill="#848D97">240°</text>
+  <line x1="54" y1="116.0" x2="614" y2="116.0" stroke="#848D97" stroke-opacity="0.25" stroke-dasharray="2,3" stroke-width="1"/>
+  <text x="10" y="120.0" font-size="10" font-family="monospace" fill="#848D97">260°</text>
+  <polyline fill="none" stroke="#E8590C" stroke-width="2.5" stroke-linejoin="round" points="110.0,196.0 166.0,196.0 222.0,186.7 278.0,176.2 334.0,166.6 390.0,157.9 446.0,150.2 502.0,143.5 558.0,137.7 614.0,132.7"/>
+  <polyline fill="none" stroke="#0969DA" stroke-width="2.5" stroke-linejoin="round" points="110.0,196.0 166.0,196.0 222.0,190.5 278.0,190.5 334.0,190.5 390.0,190.5 446.0,190.5 502.0,190.5 558.0,190.5 614.0,190.5"/>
+  <text x="624" y="136.7432069340044" font-size="11" font-family="monospace" fill="#E8590C">hard-clip → 250°</text>
+  <text x="624" y="194.52288501949215" font-size="11" font-family="monospace" fill="#0969DA">gamut-map → 213°</text>
+  <text x="54" y="230" font-size="10" font-family="monospace" fill="#848D97">declared chroma 0 → 0.40</text>
+</svg>

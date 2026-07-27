@@ -5,7 +5,7 @@
 ```swift
 Rectangle().fill(
     OklchStyle(Oklch(lightness: 0.55, chroma: 0.12, hue: 250))
-        .dark(Oklch(lightness: 0.85, chroma: 0.09, hue: 250))
+        .dark(Oklch(lightness: 0.85, chroma: 0.06, hue: 250))
 )
 ```
 

@@ -1,0 +1,1277 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "OklchUI",
+    "printedName": "OklchUI",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AppKit",
+        "printedName": "AppKit",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "Import",
+        "name": "OklchCore",
+        "printedName": "OklchCore",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftOnoneSupport",
+        "printedName": "SwiftOnoneSupport",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "Import",
+        "name": "_Concurrency",
+        "printedName": "_Concurrency",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "Import",
+        "name": "_StringProcessing",
+        "printedName": "_StringProcessing",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "Import",
+        "name": "_SwiftConcurrencyShims",
+        "printedName": "_SwiftConcurrencyShims",
+        "declKind": "Import",
+        "moduleName": "OklchUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Backdrop",
+        "printedName": "Backdrop",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchUI.Backdrop.Type) -> OklchUI.Backdrop",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Backdrop",
+                    "printedName": "OklchUI.Backdrop",
+                    "usr": "s:7OklchUI8BackdropO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchUI.Backdrop.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Backdrop",
+                        "printedName": "OklchUI.Backdrop",
+                        "usr": "s:7OklchUI8BackdropO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OklchUI8BackdropO11environmentyA2CmF",
+            "mangledName": "$s7OklchUI8BackdropO11environmentyA2CmF",
+            "moduleName": "OklchUI"
+          },
+          {
+            "kind": "Var",
+            "name": "explicit",
+            "printedName": "explicit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchUI.Backdrop.Type) -> (OklchCore.Oklch) -> OklchUI.Backdrop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OklchCore.Oklch) -> OklchUI.Backdrop",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Backdrop",
+                        "printedName": "OklchUI.Backdrop",
+                        "usr": "s:7OklchUI8BackdropO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Oklch",
+                        "printedName": "OklchCore.Oklch",
+                        "usr": "s:9OklchCore0A0V"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchUI.Backdrop.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Backdrop",
+                        "printedName": "OklchUI.Backdrop",
+                        "usr": "s:7OklchUI8BackdropO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7OklchUI8BackdropO8explicityAC0A4Core0A0VcACmF",
+            "mangledName": "$s7OklchUI8BackdropO8explicityAC0A4Core0A0VcACmF",
+            "moduleName": "OklchUI"
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_enum_equals",
+            "printedName": "__derived_enum_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Backdrop",
+                "printedName": "OklchUI.Backdrop",
+                "usr": "s:7OklchUI8BackdropO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Backdrop",
+                "printedName": "OklchUI.Backdrop",
+                "usr": "s:7OklchUI8BackdropO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI8BackdropO21__derived_enum_equalsySbAC_ACtFZ",
+            "mangledName": "$s7OklchUI8BackdropO21__derived_enum_equalsySbAC_ACtFZ",
+            "moduleName": "OklchUI",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements",
+              "Semantics"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI8BackdropO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7OklchUI8BackdropO4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchUI",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OklchUI8BackdropO9hashValueSivp",
+            "mangledName": "$s7OklchUI8BackdropO9hashValueSivp",
+            "moduleName": "OklchUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OklchUI8BackdropO9hashValueSivg",
+                "mangledName": "$s7OklchUI8BackdropO9hashValueSivg",
+                "moduleName": "OklchUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7OklchUI8BackdropO",
+        "mangledName": "$s7OklchUI8BackdropO",
+        "moduleName": "OklchUI",
+        "intro_Macosx": "14.0",
+        "intro_iOS": "17.0",
+        "declAttributes": [
+          "Available",
+          "Available"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OklchStyle",
+        "printedName": "OklchStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Oklch",
+                "printedName": "OklchCore.Oklch",
+                "usr": "s:9OklchCore0A0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7OklchUI0A5StyleVyAC0A4Core0A0Vcfc",
+            "mangledName": "$s7OklchUI0A5StyleVyAC0A4Core0A0Vcfc",
+            "moduleName": "OklchUI",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "dark",
+            "printedName": "dark(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Oklch",
+                "printedName": "OklchCore.Oklch",
+                "usr": "s:9OklchCore0A0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI0A5StyleV4darkyAC0A4Core0A0VF",
+            "mangledName": "$s7OklchUI0A5StyleV4darkyAC0A4Core0A0VF",
+            "moduleName": "OklchUI",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "increasedContrast",
+            "printedName": "increasedContrast(light:dark:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OklchCore.Oklch?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Oklch",
+                    "printedName": "OklchCore.Oklch",
+                    "usr": "s:9OklchCore0A0V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OklchCore.Oklch?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Oklch",
+                    "printedName": "OklchCore.Oklch",
+                    "usr": "s:9OklchCore0A0V"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI0A5StyleV17increasedContrast5light4darkAC0A4Core0A0VSg_AJtF",
+            "mangledName": "$s7OklchUI0A5StyleV17increasedContrast5light4darkAC0A4Core0A0VSg_AJtF",
+            "moduleName": "OklchUI",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EnvironmentValues",
+                "printedName": "SwiftUI.EnvironmentValues",
+                "usr": "s:7SwiftUI17EnvironmentValuesV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI0A5StyleV7resolve2in05SwiftB05ColorVAF17EnvironmentValuesV_tF",
+            "mangledName": "$s7OklchUI0A5StyleV7resolve2in05SwiftB05ColorVAF17EnvironmentValuesV_tF",
+            "moduleName": "OklchUI",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeAlias",
+            "name": "Resolved",
+            "printedName": "Resolved",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "TypeAlias",
+            "usr": "s:7OklchUI0A5StyleV8Resolveda",
+            "mangledName": "$s7OklchUI0A5StyleV8Resolveda",
+            "moduleName": "OklchUI",
+            "implicit": true,
+            "intro_Macosx": "14.0",
+            "intro_iOS": "17.0",
+            "intro_tvOS": "17.0",
+            "intro_watchOS": "10.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_struct_equals",
+            "printedName": "__derived_struct_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI0A5StyleV23__derived_struct_equalsySbAC_ACtFZ",
+            "mangledName": "$s7OklchUI0A5StyleV23__derived_struct_equalsySbAC_ACtFZ",
+            "moduleName": "OklchUI",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI0A5StyleV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7OklchUI0A5StyleV4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchUI",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7OklchUI0A5StyleV9hashValueSivp",
+            "mangledName": "$s7OklchUI0A5StyleV9hashValueSivp",
+            "moduleName": "OklchUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7OklchUI0A5StyleV9hashValueSivg",
+                "mangledName": "$s7OklchUI0A5StyleV9hashValueSivg",
+                "moduleName": "OklchUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "contrasting",
+            "printedName": "contrasting(_:hue:chroma:preferring:against:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastTarget",
+                "printedName": "OklchCore.ContrastTarget",
+                "usr": "s:9OklchCore14ContrastTargetO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "OklchCore.Direction",
+                "hasDefaultArg": true,
+                "usr": "s:9OklchCore9DirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Backdrop",
+                "printedName": "OklchUI.Backdrop",
+                "hasDefaultArg": true,
+                "usr": "s:7OklchUI8BackdropO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7OklchUI0A5StyleV11contrasting_3hue6chroma10preferring7againstAC0A4Core14ContrastTargetO_S2dAI9DirectionOAA8BackdropOtFZ",
+            "mangledName": "$s7OklchUI0A5StyleV11contrasting_3hue6chroma10preferring7againstAC0A4Core14ContrastTargetO_S2dAI9DirectionOAA8BackdropOtFZ",
+            "moduleName": "OklchUI",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7OklchUI0A5StyleV",
+        "mangledName": "$s7OklchUI0A5StyleV",
+        "moduleName": "OklchUI",
+        "intro_Macosx": "14.0",
+        "intro_iOS": "17.0",
+        "intro_tvOS": "17.0",
+        "intro_watchOS": "10.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Resolved",
+                "printedName": "Resolved",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnvironmentValues",
+        "printedName": "EnvironmentValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "colorGamut",
+            "printedName": "colorGamut",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E10colorGamut0E4Core0G0Vvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E10colorGamut0E4Core0G0Vvp",
+            "moduleName": "OklchUI",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gamut",
+                    "printedName": "OklchCore.Gamut",
+                    "usr": "s:9OklchCore5GamutV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E10colorGamut0E4Core0G0Vvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E10colorGamut0E4Core0G0Vvg",
+                "moduleName": "OklchUI",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gamut",
+                    "printedName": "OklchCore.Gamut",
+                    "usr": "s:9OklchCore5GamutV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E10colorGamut0E4Core0G0Vvs",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E10colorGamut0E4Core0G0Vvs",
+                "moduleName": "OklchUI",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "themeBackground",
+            "printedName": "themeBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OklchCore.Oklch?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Oklch",
+                    "printedName": "OklchCore.Oklch",
+                    "usr": "s:9OklchCore0A0V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E15themeBackground0E4Core0E0VSgvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E15themeBackground0E4Core0E0VSgvp",
+            "moduleName": "OklchUI",
+            "declAttributes": [
+              "SetterAccess"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OklchCore.Oklch?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Oklch",
+                        "printedName": "OklchCore.Oklch",
+                        "usr": "s:9OklchCore0A0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E15themeBackground0E4Core0E0VSgvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E15themeBackground0E4Core0E0VSgvg",
+                "moduleName": "OklchUI",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "oklchDiagnostics",
+            "printedName": "oklchDiagnostics",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((OklchCore.ContrastResolution) -> Swift.Void)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(OklchCore.ContrastResolution) -> Swift.Void",
+                    "children": [
+                      {
+                        "kind": "TypeNameAlias",
+                        "name": "Void",
+                        "printedName": "Swift.Void",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContrastResolution",
+                        "printedName": "OklchCore.ContrastResolution",
+                        "usr": "s:9OklchCore18ContrastResolutionV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E16oklchDiagnosticsy0E4Core18ContrastResolutionVYbcSgvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E16oklchDiagnosticsy0E4Core18ContrastResolutionVYbcSgvp",
+            "moduleName": "OklchUI",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((OklchCore.ContrastResolution) -> Swift.Void)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(OklchCore.ContrastResolution) -> Swift.Void",
+                        "children": [
+                          {
+                            "kind": "TypeNameAlias",
+                            "name": "Void",
+                            "printedName": "Swift.Void",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContrastResolution",
+                            "printedName": "OklchCore.ContrastResolution",
+                            "usr": "s:9OklchCore18ContrastResolutionV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E16oklchDiagnosticsy0E4Core18ContrastResolutionVYbcSgvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E16oklchDiagnosticsy0E4Core18ContrastResolutionVYbcSgvg",
+                "moduleName": "OklchUI",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((OklchCore.ContrastResolution) -> Swift.Void)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(OklchCore.ContrastResolution) -> Swift.Void",
+                        "children": [
+                          {
+                            "kind": "TypeNameAlias",
+                            "name": "Void",
+                            "printedName": "Swift.Void",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContrastResolution",
+                            "printedName": "OklchCore.ContrastResolution",
+                            "usr": "s:9OklchCore18ContrastResolutionV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV05OklchB0E16oklchDiagnosticsy0E4Core18ContrastResolutionVYbcSgvs",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV05OklchB0E16oklchDiagnosticsy0E4Core18ContrastResolutionVYbcSgvs",
+                "moduleName": "OklchUI",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI17EnvironmentValuesV",
+        "mangledName": "$s7SwiftUI17EnvironmentValuesV",
+        "moduleName": "SwiftUICore",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "colorGamut",
+            "printedName": "colorGamut(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP05OklchB0E10colorGamutyQr0D4Core0F0VF",
+            "mangledName": "$s7SwiftUI4ViewP05OklchB0E10colorGamutyQr0D4Core0F0VF",
+            "moduleName": "OklchUI",
+            "genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "oklchDiagnostics",
+            "printedName": "oklchDiagnostics(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.ContrastResolution) -> Swift.Void",
+                "children": [
+                  {
+                    "kind": "TypeNameAlias",
+                    "name": "Void",
+                    "printedName": "Swift.Void",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContrastResolution",
+                    "printedName": "OklchCore.ContrastResolution",
+                    "usr": "s:9OklchCore18ContrastResolutionV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP05OklchB0E16oklchDiagnosticsyQry0D4Core18ContrastResolutionVcF",
+            "mangledName": "$s7SwiftUI4ViewP05OklchB0E16oklchDiagnosticsyQry0D4Core18ContrastResolutionVcF",
+            "moduleName": "OklchUI",
+            "genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "oklchBackground",
+            "printedName": "oklchBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OklchStyle",
+                "printedName": "OklchUI.OklchStyle",
+                "usr": "s:7OklchUI0A5StyleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP05OklchB0E15oklchBackgroundyQrAD0D5StyleVF",
+            "mangledName": "$s7SwiftUI4ViewP05OklchB0E15oklchBackgroundyQrAD0D5StyleVF",
+            "moduleName": "OklchUI",
+            "genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Gamut",
+        "printedName": "Gamut",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "detected",
+            "printedName": "detected()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore5GamutV0A2UIE8detectedACyFZ",
+            "mangledName": "$s9OklchCore5GamutV0A2UIE8detectedACyFZ",
+            "moduleName": "OklchUI",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9OklchCore5GamutV",
+        "mangledName": "$s9OklchCore5GamutV",
+        "moduleName": "OklchCore",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  }
+}

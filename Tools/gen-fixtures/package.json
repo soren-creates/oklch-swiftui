@@ -1,0 +1,9 @@
+{
+  "name": "oklch-gen-fixtures",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Generates Color.js reference fixtures for OklchCore. See ARCHITECTURE.md §5.1.",
+  "scripts": { "generate": "node generate.mjs" },
+  "dependencies": { "colorjs.io": "0.7.1" }
+}

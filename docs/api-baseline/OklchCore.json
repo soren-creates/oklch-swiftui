@@ -1,0 +1,3490 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "OklchCore",
+    "printedName": "OklchCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "OklchCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftOnoneSupport",
+        "printedName": "SwiftOnoneSupport",
+        "declKind": "Import",
+        "moduleName": "OklchCore"
+      },
+      {
+        "kind": "Import",
+        "name": "_Concurrency",
+        "printedName": "_Concurrency",
+        "declKind": "Import",
+        "moduleName": "OklchCore"
+      },
+      {
+        "kind": "Import",
+        "name": "_StringProcessing",
+        "printedName": "_StringProcessing",
+        "declKind": "Import",
+        "moduleName": "OklchCore"
+      },
+      {
+        "kind": "Import",
+        "name": "_SwiftConcurrencyShims",
+        "printedName": "_SwiftConcurrencyShims",
+        "declKind": "Import",
+        "moduleName": "OklchCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContrastTarget",
+        "printedName": "ContrastTarget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apca",
+            "printedName": "apca",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.ContrastTarget.Type) -> (Swift.Double) -> OklchCore.ContrastTarget",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> OklchCore.ContrastTarget",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContrastTarget",
+                        "printedName": "OklchCore.ContrastTarget",
+                        "usr": "s:9OklchCore14ContrastTargetO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.ContrastTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContrastTarget",
+                        "printedName": "OklchCore.ContrastTarget",
+                        "usr": "s:9OklchCore14ContrastTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore14ContrastTargetO4apcayACSdcACmF",
+            "mangledName": "$s9OklchCore14ContrastTargetO4apcayACSdcACmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Var",
+            "name": "wcag",
+            "printedName": "wcag",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.ContrastTarget.Type) -> (Swift.Double) -> OklchCore.ContrastTarget",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> OklchCore.ContrastTarget",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContrastTarget",
+                        "printedName": "OklchCore.ContrastTarget",
+                        "usr": "s:9OklchCore14ContrastTargetO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.ContrastTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContrastTarget",
+                        "printedName": "OklchCore.ContrastTarget",
+                        "usr": "s:9OklchCore14ContrastTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore14ContrastTargetO4wcagyACSdcACmF",
+            "mangledName": "$s9OklchCore14ContrastTargetO4wcagyACSdcACmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_enum_equals",
+            "printedName": "__derived_enum_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastTarget",
+                "printedName": "OklchCore.ContrastTarget",
+                "usr": "s:9OklchCore14ContrastTargetO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastTarget",
+                "printedName": "OklchCore.ContrastTarget",
+                "usr": "s:9OklchCore14ContrastTargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore14ContrastTargetO21__derived_enum_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore14ContrastTargetO21__derived_enum_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements",
+              "Semantics"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore14ContrastTargetO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore14ContrastTargetO4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore14ContrastTargetO9hashValueSivp",
+            "mangledName": "$s9OklchCore14ContrastTargetO9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore14ContrastTargetO9hashValueSivg",
+                "mangledName": "$s9OklchCore14ContrastTargetO9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9OklchCore14ContrastTargetO",
+        "mangledName": "$s9OklchCore14ContrastTargetO",
+        "moduleName": "OklchCore",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "relativeLuminance",
+        "printedName": "relativeLuminance(_:in:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "RGB",
+            "printedName": "OklchCore.RGB",
+            "usr": "s:9OklchCore3RGBV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Gamut",
+            "printedName": "OklchCore.Gamut",
+            "usr": "s:9OklchCore5GamutV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore17relativeLuminance_2inSdAA3RGBV_AA5GamutVtF",
+        "mangledName": "$s9OklchCore17relativeLuminance_2inSdAA3RGBV_AA5GamutVtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "wcagContrast",
+        "printedName": "wcagContrast(_:_:in:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Gamut",
+            "printedName": "OklchCore.Gamut",
+            "usr": "s:9OklchCore5GamutV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore12wcagContrast__2inSdAA0A0V_AeA5GamutVtF",
+        "mangledName": "$s9OklchCore12wcagContrast__2inSdAA0A0V_AeA5GamutVtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "apcaContrast",
+        "printedName": "apcaContrast(text:background:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore12apcaContrast4text10backgroundSdAA0A0V_AFtF",
+        "mangledName": "$s9OklchCore12apcaContrast4text10backgroundSdAA0A0V_AFtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContrastResolution",
+        "printedName": "ContrastResolution",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "requested",
+            "printedName": "requested",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore18ContrastResolutionV9requestedSdvp",
+            "mangledName": "$s9OklchCore18ContrastResolutionV9requestedSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore18ContrastResolutionV9requestedSdvg",
+                "mangledName": "$s9OklchCore18ContrastResolutionV9requestedSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "achieved",
+            "printedName": "achieved",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore18ContrastResolutionV8achievedSdvp",
+            "mangledName": "$s9OklchCore18ContrastResolutionV8achievedSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore18ContrastResolutionV8achievedSdvg",
+                "mangledName": "$s9OklchCore18ContrastResolutionV8achievedSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(requested:achieved:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastResolution",
+                "printedName": "OklchCore.ContrastResolution",
+                "usr": "s:9OklchCore18ContrastResolutionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9OklchCore18ContrastResolutionV9requested8achievedACSd_Sdtcfc",
+            "mangledName": "$s9OklchCore18ContrastResolutionV9requested8achievedACSd_Sdtcfc",
+            "moduleName": "OklchCore",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isSatisfied",
+            "printedName": "isSatisfied",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore18ContrastResolutionV11isSatisfiedSbvp",
+            "mangledName": "$s9OklchCore18ContrastResolutionV11isSatisfiedSbvp",
+            "moduleName": "OklchCore",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore18ContrastResolutionV11isSatisfiedSbvg",
+                "mangledName": "$s9OklchCore18ContrastResolutionV11isSatisfiedSbvg",
+                "moduleName": "OklchCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_struct_equals",
+            "printedName": "__derived_struct_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastResolution",
+                "printedName": "OklchCore.ContrastResolution",
+                "usr": "s:9OklchCore18ContrastResolutionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastResolution",
+                "printedName": "OklchCore.ContrastResolution",
+                "usr": "s:9OklchCore18ContrastResolutionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore18ContrastResolutionV23__derived_struct_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore18ContrastResolutionV23__derived_struct_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore18ContrastResolutionV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore18ContrastResolutionV4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore18ContrastResolutionV9hashValueSivp",
+            "mangledName": "$s9OklchCore18ContrastResolutionV9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore18ContrastResolutionV9hashValueSivg",
+                "mangledName": "$s9OklchCore18ContrastResolutionV9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9OklchCore18ContrastResolutionV",
+        "mangledName": "$s9OklchCore18ContrastResolutionV",
+        "moduleName": "OklchCore",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Direction",
+        "printedName": "Direction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lighter",
+            "printedName": "lighter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.Direction.Type) -> OklchCore.Direction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "OklchCore.Direction",
+                    "usr": "s:9OklchCore9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.Direction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "OklchCore.Direction",
+                        "usr": "s:9OklchCore9DirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore9DirectionO7lighteryA2CmF",
+            "mangledName": "$s9OklchCore9DirectionO7lighteryA2CmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Var",
+            "name": "darker",
+            "printedName": "darker",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.Direction.Type) -> OklchCore.Direction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "OklchCore.Direction",
+                    "usr": "s:9OklchCore9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.Direction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "OklchCore.Direction",
+                        "usr": "s:9OklchCore9DirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore9DirectionO6darkeryA2CmF",
+            "mangledName": "$s9OklchCore9DirectionO6darkeryA2CmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Var",
+            "name": "automatic",
+            "printedName": "automatic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.Direction.Type) -> OklchCore.Direction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "OklchCore.Direction",
+                    "usr": "s:9OklchCore9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.Direction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "OklchCore.Direction",
+                        "usr": "s:9OklchCore9DirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore9DirectionO9automaticyA2CmF",
+            "mangledName": "$s9OklchCore9DirectionO9automaticyA2CmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_enum_equals",
+            "printedName": "__derived_enum_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "OklchCore.Direction",
+                "usr": "s:9OklchCore9DirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "OklchCore.Direction",
+                "usr": "s:9OklchCore9DirectionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore9DirectionO21__derived_enum_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore9DirectionO21__derived_enum_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements",
+              "Semantics"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore9DirectionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore9DirectionO4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore9DirectionO9hashValueSivp",
+            "mangledName": "$s9OklchCore9DirectionO9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore9DirectionO9hashValueSivg",
+                "mangledName": "$s9OklchCore9DirectionO9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9OklchCore9DirectionO",
+        "mangledName": "$s9OklchCore9DirectionO",
+        "moduleName": "OklchCore",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "solveContrast",
+        "printedName": "solveContrast(target:hue:chroma:against:in:preferring:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(colour: OklchCore.Oklch, resolution: OklchCore.ContrastResolution)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Oklch",
+                "printedName": "OklchCore.Oklch",
+                "usr": "s:9OklchCore0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContrastResolution",
+                "printedName": "OklchCore.ContrastResolution",
+                "usr": "s:9OklchCore18ContrastResolutionV"
+              }
+            ]
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ContrastTarget",
+            "printedName": "OklchCore.ContrastTarget",
+            "usr": "s:9OklchCore14ContrastTargetO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Gamut",
+            "printedName": "OklchCore.Gamut",
+            "usr": "s:9OklchCore5GamutV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Direction",
+            "printedName": "OklchCore.Direction",
+            "hasDefaultArg": true,
+            "usr": "s:9OklchCore9DirectionO"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore13solveContrast6target3hue6chroma7against2in10preferringAA0A0V6colour_AA0D10ResolutionV10resolutiontAA0D6TargetO_S2dAjA5GamutVAA9DirectionOtF",
+        "mangledName": "$s9OklchCore13solveContrast6target3hue6chroma7against2in10preferringAA0A0V6colour_AA0D10ResolutionV10resolutiontAA0D6TargetO_S2dAjA5GamutVAA9DirectionOtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "oklchToRGB",
+        "printedName": "oklchToRGB(_:in:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "RGB",
+            "printedName": "OklchCore.RGB",
+            "usr": "s:9OklchCore3RGBV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Gamut",
+            "printedName": "OklchCore.Gamut",
+            "usr": "s:9OklchCore5GamutV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore10oklchToRGB_2inAA0E0VAA0A0V_AA5GamutVtF",
+        "mangledName": "$s9OklchCore10oklchToRGB_2inAA0E0VAA0A0V_AA5GamutVtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "rgbToOklch",
+        "printedName": "rgbToOklch(_:in:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "RGB",
+            "printedName": "OklchCore.RGB",
+            "usr": "s:9OklchCore3RGBV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Gamut",
+            "printedName": "OklchCore.Gamut",
+            "usr": "s:9OklchCore5GamutV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore05rgbToA0_2inAA0A0VAA3RGBV_AA5GamutVtF",
+        "mangledName": "$s9OklchCore05rgbToA0_2inAA0A0VAA3RGBV_AA5GamutVtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Matrix3",
+        "printedName": "Matrix3",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "m",
+            "printedName": "m",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore7Matrix3V1mSd_S8dtvp",
+            "mangledName": "$s9OklchCore7Matrix3V1mSd_S8dtvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double, Swift.Double)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore7Matrix3V1mSd_S8dtvg",
+                "mangledName": "$s9OklchCore7Matrix3V1mSd_S8dtvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:_:_:_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9OklchCore7Matrix3VyACSd_S8dtcfc",
+            "mangledName": "$s9OklchCore7Matrix3VyACSd_S8dtcfc",
+            "moduleName": "OklchCore",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "apply",
+            "printedName": "apply(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Double, Swift.Double, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.Double, Swift.Double, Swift.Double)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore7Matrix3V5applyySd_S2dtSd_S2dt_tF",
+            "mangledName": "$s9OklchCore7Matrix3V5applyySd_S2dtSd_S2dt_tF",
+            "moduleName": "OklchCore",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore7Matrix3V2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore7Matrix3V2eeoiySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore7Matrix3V4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore7Matrix3V4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore7Matrix3V9hashValueSivp",
+            "mangledName": "$s9OklchCore7Matrix3V9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore7Matrix3V9hashValueSivg",
+                "mangledName": "$s9OklchCore7Matrix3V9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9OklchCore7Matrix3V",
+        "mangledName": "$s9OklchCore7Matrix3V",
+        "moduleName": "OklchCore",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RGB",
+        "printedName": "RGB",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "red",
+            "printedName": "red",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore3RGBV3redSdvp",
+            "mangledName": "$s9OklchCore3RGBV3redSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV3redSdvg",
+                "mangledName": "$s9OklchCore3RGBV3redSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV3redSdvs",
+                "mangledName": "$s9OklchCore3RGBV3redSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "green",
+            "printedName": "green",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore3RGBV5greenSdvp",
+            "mangledName": "$s9OklchCore3RGBV5greenSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV5greenSdvg",
+                "mangledName": "$s9OklchCore3RGBV5greenSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV5greenSdvs",
+                "mangledName": "$s9OklchCore3RGBV5greenSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "blue",
+            "printedName": "blue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore3RGBV4blueSdvp",
+            "mangledName": "$s9OklchCore3RGBV4blueSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV4blueSdvg",
+                "mangledName": "$s9OklchCore3RGBV4blueSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV4blueSdvs",
+                "mangledName": "$s9OklchCore3RGBV4blueSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alpha",
+            "printedName": "alpha",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore3RGBV5alphaSdvp",
+            "mangledName": "$s9OklchCore3RGBV5alphaSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV5alphaSdvg",
+                "mangledName": "$s9OklchCore3RGBV5alphaSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV5alphaSdvs",
+                "mangledName": "$s9OklchCore3RGBV5alphaSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(red:green:blue:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RGB",
+                "printedName": "OklchCore.RGB",
+                "usr": "s:9OklchCore3RGBV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9OklchCore3RGBV3red5green4blue5alphaACSd_S3dtcfc",
+            "mangledName": "$s9OklchCore3RGBV3red5green4blue5alphaACSd_S3dtcfc",
+            "moduleName": "OklchCore",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isInGamut",
+            "printedName": "isInGamut(epsilon:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore3RGBV9isInGamut7epsilonSbSd_tF",
+            "mangledName": "$s9OklchCore3RGBV9isInGamut7epsilonSbSd_tF",
+            "moduleName": "OklchCore",
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_struct_equals",
+            "printedName": "__derived_struct_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RGB",
+                "printedName": "OklchCore.RGB",
+                "usr": "s:9OklchCore3RGBV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RGB",
+                "printedName": "OklchCore.RGB",
+                "usr": "s:9OklchCore3RGBV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore3RGBV23__derived_struct_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore3RGBV23__derived_struct_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore3RGBV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore3RGBV4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore3RGBV9hashValueSivp",
+            "mangledName": "$s9OklchCore3RGBV9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore3RGBV9hashValueSivg",
+                "mangledName": "$s9OklchCore3RGBV9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9OklchCore3RGBV",
+        "mangledName": "$s9OklchCore3RGBV",
+        "moduleName": "OklchCore",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Gamut",
+        "printedName": "Gamut",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore5GamutV4nameSSvp",
+            "mangledName": "$s9OklchCore5GamutV4nameSSvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore5GamutV4nameSSvg",
+                "mangledName": "$s9OklchCore5GamutV4nameSSvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toXYZ",
+            "printedName": "toXYZ",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore5GamutV5toXYZAA7Matrix3Vvp",
+            "mangledName": "$s9OklchCore5GamutV5toXYZAA7Matrix3Vvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Matrix3",
+                    "printedName": "OklchCore.Matrix3",
+                    "usr": "s:9OklchCore7Matrix3V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore5GamutV5toXYZAA7Matrix3Vvg",
+                "mangledName": "$s9OklchCore5GamutV5toXYZAA7Matrix3Vvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fromXYZ",
+            "printedName": "fromXYZ",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore5GamutV7fromXYZAA7Matrix3Vvp",
+            "mangledName": "$s9OklchCore5GamutV7fromXYZAA7Matrix3Vvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Matrix3",
+                    "printedName": "OklchCore.Matrix3",
+                    "usr": "s:9OklchCore7Matrix3V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore5GamutV7fromXYZAA7Matrix3Vvg",
+                "mangledName": "$s9OklchCore5GamutV7fromXYZAA7Matrix3Vvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:toXYZ:fromXYZ:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Matrix3",
+                "printedName": "OklchCore.Matrix3",
+                "usr": "s:9OklchCore7Matrix3V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9OklchCore5GamutV4name5toXYZ04fromF0ACSS_AA7Matrix3VAHtcfc",
+            "mangledName": "$s9OklchCore5GamutV4name5toXYZ04fromF0ACSS_AA7Matrix3VAHtcfc",
+            "moduleName": "OklchCore",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "sRGB",
+            "printedName": "sRGB",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore5GamutV4sRGBACvpZ",
+            "mangledName": "$s9OklchCore5GamutV4sRGBACvpZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gamut",
+                    "printedName": "OklchCore.Gamut",
+                    "usr": "s:9OklchCore5GamutV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore5GamutV4sRGBACvgZ",
+                "mangledName": "$s9OklchCore5GamutV4sRGBACvgZ",
+                "moduleName": "OklchCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayP3",
+            "printedName": "displayP3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore5GamutV9displayP3ACvpZ",
+            "mangledName": "$s9OklchCore5GamutV9displayP3ACvpZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gamut",
+                    "printedName": "OklchCore.Gamut",
+                    "usr": "s:9OklchCore5GamutV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore5GamutV9displayP3ACvgZ",
+                "mangledName": "$s9OklchCore5GamutV9displayP3ACvgZ",
+                "moduleName": "OklchCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore5GamutV6encodeyS2dFZ",
+            "mangledName": "$s9OklchCore5GamutV6encodeyS2dFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore5GamutV6decodeyS2dFZ",
+            "mangledName": "$s9OklchCore5GamutV6decodeyS2dFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_struct_equals",
+            "printedName": "__derived_struct_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore5GamutV23__derived_struct_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore5GamutV23__derived_struct_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore5GamutV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore5GamutV4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore5GamutV9hashValueSivp",
+            "mangledName": "$s9OklchCore5GamutV9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore5GamutV9hashValueSivg",
+                "mangledName": "$s9OklchCore5GamutV9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9OklchCore5GamutV",
+        "mangledName": "$s9OklchCore5GamutV",
+        "moduleName": "OklchCore",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GamutMap",
+        "printedName": "GamutMap",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cssColor4",
+            "printedName": "cssColor4",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.GamutMap.Type) -> OklchCore.GamutMap",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GamutMap",
+                    "printedName": "OklchCore.GamutMap",
+                    "usr": "s:9OklchCore8GamutMapO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.GamutMap.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GamutMap",
+                        "printedName": "OklchCore.GamutMap",
+                        "usr": "s:9OklchCore8GamutMapO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore8GamutMapO9cssColor4yA2CmF",
+            "mangledName": "$s9OklchCore8GamutMapO9cssColor4yA2CmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Var",
+            "name": "clip",
+            "printedName": "clip",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OklchCore.GamutMap.Type) -> OklchCore.GamutMap",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GamutMap",
+                    "printedName": "OklchCore.GamutMap",
+                    "usr": "s:9OklchCore8GamutMapO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OklchCore.GamutMap.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GamutMap",
+                        "printedName": "OklchCore.GamutMap",
+                        "usr": "s:9OklchCore8GamutMapO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9OklchCore8GamutMapO4clipyA2CmF",
+            "mangledName": "$s9OklchCore8GamutMapO4clipyA2CmF",
+            "moduleName": "OklchCore"
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_enum_equals",
+            "printedName": "__derived_enum_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GamutMap",
+                "printedName": "OklchCore.GamutMap",
+                "usr": "s:9OklchCore8GamutMapO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GamutMap",
+                "printedName": "OklchCore.GamutMap",
+                "usr": "s:9OklchCore8GamutMapO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore8GamutMapO21__derived_enum_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore8GamutMapO21__derived_enum_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements",
+              "Semantics"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore8GamutMapO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore8GamutMapO4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore8GamutMapO9hashValueSivp",
+            "mangledName": "$s9OklchCore8GamutMapO9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore8GamutMapO9hashValueSivg",
+                "mangledName": "$s9OklchCore8GamutMapO9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9OklchCore8GamutMapO",
+        "mangledName": "$s9OklchCore8GamutMapO",
+        "moduleName": "OklchCore",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "deltaEOK",
+        "printedName": "deltaEOK(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore8deltaEOKySdAA0A0V_ADtF",
+        "mangledName": "$s9OklchCore8deltaEOKySdAA0A0V_ADtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "gamutMap",
+        "printedName": "gamutMap(_:to:using:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Gamut",
+            "printedName": "OklchCore.Gamut",
+            "usr": "s:9OklchCore5GamutV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GamutMap",
+            "printedName": "OklchCore.GamutMap",
+            "hasDefaultArg": true,
+            "usr": "s:9OklchCore8GamutMapO"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore8gamutMap_2to5usingAA0A0VAF_AA5GamutVAA0gD0OtF",
+        "mangledName": "$s9OklchCore8gamutMap_2to5usingAA0A0VAF_AA5GamutVAA0gD0OtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "shortestHueArc",
+        "printedName": "shortestHueArc(from:to:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore14shortestHueArc4from2toS2d_SdtF",
+        "mangledName": "$s9OklchCore14shortestHueArc4from2toS2d_SdtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "interpolate",
+        "printedName": "interpolate(_:_:t:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Oklch",
+            "printedName": "OklchCore.Oklch",
+            "usr": "s:9OklchCore0A0V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Double",
+            "printedName": "Swift.Double",
+            "usr": "s:Sd"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9OklchCore11interpolate__1tAA0A0VAE_AESdtF",
+        "mangledName": "$s9OklchCore11interpolate__1tAA0A0VAE_AESdtF",
+        "moduleName": "OklchCore",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Oklch",
+        "printedName": "Oklch",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lightness",
+            "printedName": "lightness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V9lightnessSdvp",
+            "mangledName": "$s9OklchCore0A0V9lightnessSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V9lightnessSdvg",
+                "mangledName": "$s9OklchCore0A0V9lightnessSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V9lightnessSdvs",
+                "mangledName": "$s9OklchCore0A0V9lightnessSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chroma",
+            "printedName": "chroma",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V6chromaSdvp",
+            "mangledName": "$s9OklchCore0A0V6chromaSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V6chromaSdvg",
+                "mangledName": "$s9OklchCore0A0V6chromaSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V6chromaSdvs",
+                "mangledName": "$s9OklchCore0A0V6chromaSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hue",
+            "printedName": "hue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V3hueSdvp",
+            "mangledName": "$s9OklchCore0A0V3hueSdvp",
+            "moduleName": "OklchCore",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V3hueSdvg",
+                "mangledName": "$s9OklchCore0A0V3hueSdvg",
+                "moduleName": "OklchCore",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V3hueSdvs",
+                "mangledName": "$s9OklchCore0A0V3hueSdvs",
+                "moduleName": "OklchCore",
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alpha",
+            "printedName": "alpha",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V5alphaSdvp",
+            "mangledName": "$s9OklchCore0A0V5alphaSdvp",
+            "moduleName": "OklchCore",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V5alphaSdvg",
+                "mangledName": "$s9OklchCore0A0V5alphaSdvg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V5alphaSdvs",
+                "mangledName": "$s9OklchCore0A0V5alphaSdvs",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "powerlessChromaThreshold",
+            "printedName": "powerlessChromaThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V24powerlessChromaThresholdSdvpZ",
+            "mangledName": "$s9OklchCore0A0V24powerlessChromaThresholdSdvpZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V24powerlessChromaThresholdSdvgZ",
+                "mangledName": "$s9OklchCore0A0V24powerlessChromaThresholdSdvgZ",
+                "moduleName": "OklchCore",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(lightness:chroma:hue:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Oklch",
+                "printedName": "OklchCore.Oklch",
+                "usr": "s:9OklchCore0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9OklchCore0A0V9lightness6chroma3hue5alphaACSd_S3dtcfc",
+            "mangledName": "$s9OklchCore0A0V9lightness6chroma3hue5alphaACSd_S3dtcfc",
+            "moduleName": "OklchCore",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isPowerless",
+            "printedName": "isPowerless",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V11isPowerlessSbvp",
+            "mangledName": "$s9OklchCore0A0V11isPowerlessSbvp",
+            "moduleName": "OklchCore",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V11isPowerlessSbvg",
+                "mangledName": "$s9OklchCore0A0V11isPowerlessSbvg",
+                "moduleName": "OklchCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "__derived_struct_equals",
+            "printedName": "__derived_struct_equals(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Oklch",
+                "printedName": "OklchCore.Oklch",
+                "usr": "s:9OklchCore0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Oklch",
+                "printedName": "OklchCore.Oklch",
+                "usr": "s:9OklchCore0A0V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore0A0V23__derived_struct_equalsySbAC_ACtFZ",
+            "mangledName": "$s9OklchCore0A0V23__derived_struct_equalsySbAC_ACtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Implements"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore0A0V4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9OklchCore0A0V4hash4intoys6HasherVz_tF",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9OklchCore0A0V9hashValueSivp",
+            "mangledName": "$s9OklchCore0A0V9hashValueSivp",
+            "moduleName": "OklchCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9OklchCore0A0V9hashValueSivg",
+                "mangledName": "$s9OklchCore0A0V9hashValueSivg",
+                "moduleName": "OklchCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "maxChroma",
+            "printedName": "maxChroma(lightness:hue:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Gamut",
+                "printedName": "OklchCore.Gamut",
+                "usr": "s:9OklchCore5GamutV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9OklchCore0A0V9maxChroma9lightness3hue2inS2d_SdAA5GamutVtFZ",
+            "mangledName": "$s9OklchCore0A0V9maxChroma9lightness3hue2inS2d_SdAA5GamutVtFZ",
+            "moduleName": "OklchCore",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9OklchCore0A0V",
+        "mangledName": "$s9OklchCore0A0V",
+        "moduleName": "OklchCore",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  }
+}

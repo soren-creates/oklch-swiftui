@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7250A751BF24CD8A0A9650E /* DeviceHarnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD878B9CB144E1A1F09009 /* DeviceHarnessApp.swift */; };
+		9E5F886DE609402C85940D92 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D122AFB41BE34537982B856D /* Measurement.swift */; };
+		34BAC9014C854FAF9B1CB178 /* OklchCore in Frameworks */ = {isa = PBXBuildFile; productRef = E1905EF3FD2349CF96D426B9 /* OklchCore */; };
+		3B4565D300DC41DC988A616C /* OklchUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1DCC4FE7430247FBBDD0890F /* OklchUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E1C8BE9DC1E48AAB4BB0320 /* DeviceHarness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceHarness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AD878B9CB144E1A1F09009 /* DeviceHarnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHarnessApp.swift; sourceTree = "<group>"; };
+		D122AFB41BE34537982B856D /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		E9CB3009E1BC46998C29B4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D49B69EA9F54CAE9185CE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BAC9014C854FAF9B1CB178 /* OklchCore in Frameworks */,
+				3B4565D300DC41DC988A616C /* OklchUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857200C72FE44E99B82AD80E = {
+			isa = PBXGroup;
+			children = (
+				0A25CDA72E9A43659C412ACF /* DeviceHarness */,
+				DE82DADAE5CA458EB56E5C88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE82DADAE5CA458EB56E5C88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1C8BE9DC1E48AAB4BB0320 /* DeviceHarness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A25CDA72E9A43659C412ACF /* DeviceHarness */ = {
+			isa = PBXGroup;
+			children = (
+				61AD878B9CB144E1A1F09009 /* DeviceHarnessApp.swift */,
+				D122AFB41BE34537982B856D /* Measurement.swift */,
+				E9CB3009E1BC46998C29B4FE /* Info.plist */,
+			);
+			path = DeviceHarness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0887D5A99F8431CB0E659FF /* DeviceHarness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5095E38FEC24A2D915BCCA2 /* Build configuration list for PBXNativeTarget "DeviceHarness" */;
+			buildPhases = (
+				6A9C545112894453A7F5BFD2 /* Sources */,
+				0D49B69EA9F54CAE9185CE7E /* Frameworks */,
+				376789D2307B4E1DB4C39E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceHarness;
+			packageProductDependencies = (
+				E1905EF3FD2349CF96D426B9 /* OklchCore */,
+				1DCC4FE7430247FBBDD0890F /* OklchUI */,
+			);
+			productName = DeviceHarness;
+			productReference = 5E1C8BE9DC1E48AAB4BB0320 /* DeviceHarness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3350D4A256414121A2F66C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C0887D5A99F8431CB0E659FF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C037DC9693F4A4091EEDD24 /* Build configuration list for PBXProject "DeviceHarness" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857200C72FE44E99B82AD80E;
+			packageReferences = (
+				FAE033CC34DD479F93BEE0B9 /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = DE82DADAE5CA458EB56E5C88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0887D5A99F8431CB0E659FF /* DeviceHarness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376789D2307B4E1DB4C39E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A9C545112894453A7F5BFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7250A751BF24CD8A0A9650E /* DeviceHarnessApp.swift in Sources */,
+				9E5F886DE609402C85940D92 /* Measurement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F28846BF990B4BA48148651B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B21AA16CFD148248EFBE0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		721AA11F6618440EB15DA8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DeviceHarness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.oklch.DeviceHarness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		86ADE1DD061941619FFC2908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DeviceHarness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.oklch.DeviceHarness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C037DC9693F4A4091EEDD24 /* Build configuration list for PBXProject "DeviceHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28846BF990B4BA48148651B /* Debug */,
+				5B21AA16CFD148248EFBE0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5095E38FEC24A2D915BCCA2 /* Build configuration list for PBXNativeTarget "DeviceHarness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721AA11F6618440EB15DA8D5 /* Debug */,
+				86ADE1DD061941619FFC2908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FAE033CC34DD479F93BEE0B9 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../..";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1905EF3FD2349CF96D426B9 /* OklchCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OklchCore;
+		};
+		1DCC4FE7430247FBBDD0890F /* OklchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OklchUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3350D4A256414121A2F66C0B /* Project object */;
+}

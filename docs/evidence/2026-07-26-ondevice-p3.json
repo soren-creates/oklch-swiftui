@@ -1,0 +1,67 @@
+{
+  "capture_method": "xcrun devicectl device process launch --console via Tools/run-ondevice-evidence.sh",
+  "date": "2026-07-26",
+  "device_model": "iPhone 14",
+  "device_os": "iOS 26.6 (23G71)",
+  "device_product_type": "iPhone14,7",
+  "measurements": [
+    {
+      "ok": true,
+      "probe": "C2-smoke"
+    },
+    {
+      "device_model": "iPhone",
+      "device_model_identifier": "iPhone14,7",
+      "display_gamut_trait": "P3",
+      "gamut_detected": "displayP3",
+      "paths": {
+        "canvas": [
+          -0.22314453125,
+          1.044921875,
+          -0.0791015625
+        ],
+        "foreground": [
+          -0.2247314453125,
+          1.0419921875,
+          -0.07861328125
+        ],
+        "gradient": [
+          -0.2247314453125,
+          1.0419921875,
+          -0.07861328125
+        ],
+        "oklch_style": [
+          -0.2247314453125,
+          1.0419921875,
+          -0.07861328125
+        ],
+        "solid_fill": [
+          -0.2247314453125,
+          1.0419921875,
+          -0.07861328125
+        ]
+      },
+      "probe": "C2-render-paths",
+      "readback_space": "extendedLinearSRGB",
+      "system_version": "26.6",
+      "test_color": "displayP3(0,1,0)"
+    },
+    {
+      "gradient": [
+        -0.2247314453125,
+        1.0419921875,
+        -0.07861328125
+      ],
+      "probe": "C2-gradient-agreement",
+      "solid_fill": [
+        -0.2247314453125,
+        1.0419921875,
+        -0.07861328125
+      ],
+      "worst_delta": 0
+    }
+  ],
+  "probe_set": "device",
+  "swift": "swift-driver version: 1.148.6 Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)",
+  "xcode": "Xcode 26.6"
+}

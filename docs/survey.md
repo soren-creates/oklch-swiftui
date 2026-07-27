@@ -56,7 +56,19 @@ All five pass (`swift test`, 52 tests total, 0 failures, 0 skipped — see
 `docs/pins.md`'s Linux build verification section for the full run).
 
 Zero of the twenty repos read `colorSchemeContrast`; zero contain any Helmholtz–Kohlrausch or
-Okhsl/Okhsv handling.
+Okhsl/Okhsv handling. (Both claims are scoped to the 2026-07-24/25 window — see the addendum
+below for one package that appeared as the survey closed.)
+
+## Addendum — appeared after the survey window
+
+| Candidate | Stars | License | Verdict (read 2026-07-27) |
+|---|---|---|---|
+| `eliseyOzerov/okcolor-swift` | 0 | nonstandard (GitHub: `NOASSERTION`) | Careful port of Ottosson's reference `ok_color.h`: Oklab/OkLch/OkHsv/OkHsl, shortest-arc hue interpolation, Ottosson-style gamut clipping, tested against generated C++ parity fixtures. Still the eager category: public API is `SRGB`-typed end to end, no P3 path, no SwiftUI layer, no environment reads. |
+
+Created 2026-07-25, the survey's final day, so it postdates the reading above. It is the first
+package seen shipping Okhsv/Okhsl, and its C++ parity fixtures are the same oracle discipline
+this package applies with Color.js — but it changes no verdict: nothing in it resolves late,
+and the licence would need clarifying before it could be considered as a dependency at all.
 
 ## Known limitations — core maths (`OklchCore`)
 
